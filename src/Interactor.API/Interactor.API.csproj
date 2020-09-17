@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Interactor.App\Interactor.App.csproj" />
+    <ProjectReference Include="..\Interactor.ExternalService\Interactor.ExternalService.csproj" />
+    <ProjectReference Include="..\Interactor.Persistence\Interactor.Persistence.csproj" />
+  </ItemGroup>
+
+
+</Project>
