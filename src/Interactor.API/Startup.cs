@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Interactor.App;
 using Interactor.ExternalService;
 using Interactor.Persistence;
+using Interactor.SearchService.Solr;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,6 +33,7 @@ namespace Interactor.API
             services.AddApplication(Configuration);
             services.AddExternalService(Configuration);
             services.AddPersistence(Configuration);
+            services.AddSearch(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

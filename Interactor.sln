@@ -11,43 +11,45 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{F098E152-C2E2-4325-AAB0-CF30EC79918C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interactor.Core", "src\Interactor.Core\Interactor.Core.csproj", "{3757D286-5B87-4D79-96E5-D7C91994E615}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interactor.Core", "src\Interactor.Core\Interactor.Core.csproj", "{3757D286-5B87-4D79-96E5-D7C91994E615}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{1F94E2FD-802C-4C9F-8318-8FE86D4675C3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{501CE180-0C94-4AD2-B885-0454FB2AF238}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interactor.API", "src\Interactor.API\Interactor.API.csproj", "{56F8D7C0-19A9-412E-86DA-AB07706E250C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interactor.API", "src\Interactor.API\Interactor.API.csproj", "{56F8D7C0-19A9-412E-86DA-AB07706E250C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interactor.Console.UI", "src\Interactor.Console.UI\Interactor.Console.UI.csproj", "{02905D68-2C75-4C1A-8EA3-166855BA93BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interactor.Console.UI", "src\Interactor.Console.UI\Interactor.Console.UI.csproj", "{02905D68-2C75-4C1A-8EA3-166855BA93BA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interactor.Web.UI", "src\Interactor.Web.UI\Interactor.Web.UI.csproj", "{121CCCBE-04EF-458C-93A6-F337098AA7B5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interactor.Desktop.UI", "src\Interactor.Desktop.UI\Interactor.Desktop.UI.csproj", "{DE674D8C-5979-43DF-800A-2342653F82AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.UnitTests", "src\App.UnitTests\App.UnitTests.csproj", "{A2B372A2-CF39-4681-9519-8AFE78553370}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.UnitTests", "src\App.UnitTests\App.UnitTests.csproj", "{A2B372A2-CF39-4681-9519-8AFE78553370}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.UnitTests", "src\Core.UnitTests\Core.UnitTests.csproj", "{01D40C7A-1066-411F-B9BD-13AB63C5EEF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.UnitTests", "src\Core.UnitTests\Core.UnitTests.csproj", "{01D40C7A-1066-411F-B9BD-13AB63C5EEF7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{19A64E91-C62D-453A-A11F-7D4F3C51AA61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence.IntegrationTests", "src\Persistence.IntegrationTests\Persistence.IntegrationTests.csproj", "{D612DFA0-5B16-41A9-98B5-4CB162405189}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence.IntegrationTests", "src\Persistence.IntegrationTests\Persistence.IntegrationTests.csproj", "{D612DFA0-5B16-41A9-98B5-4CB162405189}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{1877BB66-CCB0-4377-9319-FABF417B1A95}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{E5100FAF-75ED-4E2A-9E59-DD09D57F925F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.UI.IntegrationTests", "src\Web.UI.IntegrationTests\Web.UI.IntegrationTests.csproj", "{18C2FD62-97C8-4EC0-93E2-5B86461A37FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.UI.IntegrationTests", "src\Web.UI.IntegrationTests\Web.UI.IntegrationTests.csproj", "{18C2FD62-97C8-4EC0-93E2-5B86461A37FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.IntegrationTests", "src\API.IntegrationTests\API.IntegrationTests.csproj", "{FEA092CB-3D01-4A47-B38E-86C57B585EBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.IntegrationTests", "src\API.IntegrationTests\API.IntegrationTests.csproj", "{FEA092CB-3D01-4A47-B38E-86C57B585EBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desktop.IntegrationTests", "src\Desktop.IntegrationTests\Desktop.IntegrationTests.csproj", "{595BF622-8864-4000-9C95-FCB2A3DC9E2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desktop.IntegrationTests", "src\Desktop.IntegrationTests\Desktop.IntegrationTests.csproj", "{595BF622-8864-4000-9C95-FCB2A3DC9E2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interactor.App", "src\Interactor.App\Interactor.App.csproj", "{C70B2163-4D26-4483-B3C5-BFC5BF600586}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interactor.App", "src\Interactor.App\Interactor.App.csproj", "{C70B2163-4D26-4483-B3C5-BFC5BF600586}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interactor.Persistence", "src\Interactor.Persistence\Interactor.Persistence.csproj", "{F4B57F03-6966-43F1-92B3-FCF2E55244CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interactor.Persistence", "src\Interactor.Persistence\Interactor.Persistence.csproj", "{F4B57F03-6966-43F1-92B3-FCF2E55244CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interactor.ExternalService", "src\Interactor.ExternalService\Interactor.ExternalService.csproj", "{EA814F42-2DBB-4219-9385-5D2253AAA78D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interactor.ExternalService", "src\Interactor.ExternalService\Interactor.ExternalService.csproj", "{EA814F42-2DBB-4219-9385-5D2253AAA78D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interactor.SearchService.Solr", "src\Interactor.SearchService.Solr\Interactor.SearchService.Solr.csproj", "{A7CB95B6-50B7-4F30-A944-19FA5F879E26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -227,6 +229,18 @@ Global
 		{EA814F42-2DBB-4219-9385-5D2253AAA78D}.Release|x64.Build.0 = Release|Any CPU
 		{EA814F42-2DBB-4219-9385-5D2253AAA78D}.Release|x86.ActiveCfg = Release|Any CPU
 		{EA814F42-2DBB-4219-9385-5D2253AAA78D}.Release|x86.Build.0 = Release|Any CPU
+		{A7CB95B6-50B7-4F30-A944-19FA5F879E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CB95B6-50B7-4F30-A944-19FA5F879E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7CB95B6-50B7-4F30-A944-19FA5F879E26}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A7CB95B6-50B7-4F30-A944-19FA5F879E26}.Debug|x64.Build.0 = Debug|Any CPU
+		{A7CB95B6-50B7-4F30-A944-19FA5F879E26}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A7CB95B6-50B7-4F30-A944-19FA5F879E26}.Debug|x86.Build.0 = Debug|Any CPU
+		{A7CB95B6-50B7-4F30-A944-19FA5F879E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CB95B6-50B7-4F30-A944-19FA5F879E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7CB95B6-50B7-4F30-A944-19FA5F879E26}.Release|x64.ActiveCfg = Release|Any CPU
+		{A7CB95B6-50B7-4F30-A944-19FA5F879E26}.Release|x64.Build.0 = Release|Any CPU
+		{A7CB95B6-50B7-4F30-A944-19FA5F879E26}.Release|x86.ActiveCfg = Release|Any CPU
+		{A7CB95B6-50B7-4F30-A944-19FA5F879E26}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -249,6 +263,7 @@ Global
 		{C70B2163-4D26-4483-B3C5-BFC5BF600586} = {A1FDA2A7-AE50-4068-BE7B-378E30922FB7}
 		{F4B57F03-6966-43F1-92B3-FCF2E55244CE} = {1EEF15C5-45B8-47FF-89E3-7C91E55F97BC}
 		{EA814F42-2DBB-4219-9385-5D2253AAA78D} = {1EEF15C5-45B8-47FF-89E3-7C91E55F97BC}
+		{A7CB95B6-50B7-4F30-A944-19FA5F879E26} = {1EEF15C5-45B8-47FF-89E3-7C91E55F97BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {63891543-2B36-4453-8B6D-4E5866A63253}
