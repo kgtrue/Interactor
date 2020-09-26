@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Interactor.App.Contracts
 {
-    public interface ICustomerRepository
+    public interface ICustomerRepository: IBaseRepo<Customer>
     {
     }
 }
